@@ -150,7 +150,7 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
                         }
                         println("currentPosition:$mCurrentPosition and size is ${mQuestionList!!.size}")
                         if (mCurrentPosition != mQuestionList!!.size) {
-                            submitBtn?.text = "Go to Next Question"
+                            submitBtn?.text = "NEXT"
                         } else {
                             submitBtn?.text = "FINISH"
                             val intent = Intent(this, VictoryActivity::class.java)
